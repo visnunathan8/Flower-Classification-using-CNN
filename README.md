@@ -1,12 +1,12 @@
 
 <h1> FlowerSpeciesClassification </h1>
 
-<h3> Project aim </h3> • Develop a flower classification system using deep learning techniques to aid botanists, agriculturists, and horticulturists in identifying different species of flowers.<br>
-<h3> Methodology </h3> • Building deep-learning-based classification models using a combination of state-of-the-art convolutional neural network (CNN) architectures. <br>
- <h3> Challenges </h3>
+<h2> Project aim </h2> • Develop a flower classification system using deep learning techniques to aid botanists, agriculturists, and horticulturists in identifying different species of flowers.<br>
+<h2> Methodology </h2> • Building deep-learning-based classification models using a combination of state-of-the-art convolutional neural network (CNN) architectures. <br>
+ <h2> Challenges </h2>
     • Differences in image qualities within the dataset. <br>
     • Data quality issues, where some images contained text or the flower was not the most prominent part of the image. <br>
-<h3> Goals </h3>
+<h2> Goals </h2>
     • Explore and provide a detailed analysis of how different CNN architectures and combinations fare against the chosen datasets of flowers. <br>
     • Compare all eleven models that were trained. <br>
     • Provide a detailed performance analysis. <br>
