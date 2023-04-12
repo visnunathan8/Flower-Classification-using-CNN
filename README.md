@@ -17,18 +17,32 @@
 
 <h3>Dataset-1 </h3> 
   • It has 7 evenly balanced classes with 1600 images per class (11200 total images). However, we pruned the number of classes to 5 making the total images to 8000(to maintain a diverse number of classes per dataset). 
+  
+<img width="905" alt="Screenshot 2023-04-12 at 2 13 04 AM" src="https://user-images.githubusercontent.com/30067377/231367104-14256f00-be8a-4684-968c-7f70ed518342.png">
 
 <h3>Dataset-2 </h3> 
   • It has 10 evenly distributed classes with 1500 images per class (15000 total images).
+  
+<img width="905" alt="Screenshot 2023-04-12 at 2 13 42 AM" src="https://user-images.githubusercontent.com/30067377/231367205-7fe78ffb-0c40-4ef8-bf3c-dc59e668a8a0.png">
 
 
 <h3>Dataset-3 </h3> 
-  • It has 16 classes unevenly distributed with a total of 15,740 images. There are 980 images on average per class in Dataset-3 where the number of images per class fell in the range of 737-1054. <br> <br>
+  • It has 16 classes unevenly distributed with a total of 15,740 images. There are 980 images on average per class in Dataset-3 where the number of images per class fell in the range of 737-1054. 
+  
+  <img width="905" alt="Screenshot 2023-04-12 at 2 14 05 AM" src="https://user-images.githubusercontent.com/30067377/231367296-2d956e6a-c479-4881-892d-5ed5bd2d4642.png">
 
-<h3>Links to the Dataset</h3>
+<h3> Problematic Images in Dataset 2 </h3>
+
+<img width="905" alt="Screenshot 2023-04-12 at 2 15 01 AM" src="https://user-images.githubusercontent.com/30067377/231367467-287da706-15e2-43bf-ad24-d5da7eebac71.png">
+
+<br> <br>
+
+<h2>Links to the Dataset</h2>
 • Flowers Dataset 1, URL: https://www.kaggle.com/datasets/nadyana/flowers <br>
 • Flowers Dataset 2, URL: https://www.kaggle.com/datasets/utkarshsaxenadn/flower-classification-5-classes-roselilyetc <br>
 • Flowers Dataset 3, URL: https://www.kaggle.com/datasets/l3llff/flowers <br>
+
+
 
 <h2> Requirements to run the code (libraries, etc) </h2>
  
