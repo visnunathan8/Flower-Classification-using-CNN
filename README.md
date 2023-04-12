@@ -1,3 +1,4 @@
+
 <h1> FlowerSpeciesClassification </h1>
 
 <h3> Project aim </h3> • Develop a flower classification system using deep learning techniques to aid botanists, agriculturists, and horticulturists in identifying different species of flowers.<br>
@@ -20,6 +21,7 @@
 <h3>Dataset-2 </h3> 
   • It has 10 evenly distributed classes with 1500 images per class (15000 total images).
 
+
 <h3>Dataset-3 </h3> 
   • It has 16 classes unevenly distributed with a total of 15,740 images. There are 980 images on average per class in Dataset-3 where the number of images per class fell in the range of 737-1054. <br> <br>
 
@@ -28,6 +30,81 @@
 • Flowers Dataset 2, URL: https://www.kaggle.com/datasets/utkarshsaxenadn/flower-classification-5-classes-roselilyetc <br>
 • Flowers Dataset 3, URL: https://www.kaggle.com/datasets/l3llff/flowers <br>
 
+<h2> Requirements to run the code (libraries, etc) </h2>
+ 
+ ```sh
+  pip install -r requirements.txt
+  ```
+ 
+ 
+<h3> Instructions to run the code : </h3>
+• Jupyter Notebook or any compatible software to run .ipynb files. <br>
+• Access to the dataset, which is assumed to be stored in Google Drive. <br>
+• Access to the pre-trained models, which are stored in Google Drive. <br>
+• The required libraries and modules should be installed in the environment, including but not limited to PyTorch, scikit-learn, tqdm, and matplotlib. <br>
+<h3> The imported libraries and modules include : </h3>
+
+* [![Python][Python.js]][Python-url]
+* [![torch][torch.js]][torch-url]
+* [![torch.nn, torch.nn.functional][torch.nn.js]][torch.nn-url]
+* [![torch.utils.data][torch.utils.data.js]][torch.utils.data-url]
+* [![torchvision.datasets, torchvision.transforms, torchvision.models][torchvision.js]][torchvision-url]
+* [![sklearn][sklearn.js]][sklearn-url]
+* [![tqdm][tqdm.js]][tqdm-url]
+* [![torchsummary][torchsummary.js]][torchsummary-url]
+* [![pandas][pandas.js]][pandas-url]
+* [![numpy][numpy.js]][numpy-url]
+* [![matplotlib][matplotlib.js]][matplotlib-url]
+* [![omnixai][omnixai.js]][omnixai-url]
+* [![optuna][optuna.js]][optuna-url]
+
+[Python.js]: https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white
+[Python-url]: https://www.python.org/
+[torch.js]: https://img.shields.io/badge/torch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white
+[torch-url]: https://pytorch.org/
+[torch.nn.js]: https://img.shields.io/badge/torch.nn%2C%20torch.nn.functional-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white
+[torch.nn-url]: https://pytorch.org/docs/stable/nn.html
+[torch.utils.data.js]: https://img.shields.io/badge/torch.utils.data-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white
+[torch.utils.data-url]: https://pytorch.org/docs/stable/data.html
+[torchvision.js]: https://img.shields.io/badge/torchvision.datasets%2C%20torchvision.transforms%2C%20torchvision.models-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white
+[torchvision-url]: https://pytorch.org/vision/
+[sklearn.js]: https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white
+[sklearn-url]: https://scikit-learn.org/stable/
+[tqdm.js]: https://img.shields.io/badge/tqdm-4B8BBE?style=for-the-badge&logo=python&logoColor=white
+[tqdm-url]: https://tqdm.github.io/
+[torchsummary.js]: https://img.shields.io/badge/torchsummary-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white
+[torchsummary-url]: https://github.com/sksq96/pytorch-summary
+[pandas.js]: https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white
+[pandas-url]: https://pandas.pydata.org/
+[numpy.js]: https://img.shields.io/badge/numpy-013243?style=for-the-badge&logo=numpy&logoColor=white
+[numpy-url]: https://numpy.org/
+[matplotlib.js]: https://img.shields.io/badge/matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white
+[matplotlib-url]: https://matplotlib.org/
+[omnixai.js]: https://img.shields.io/badge/omnixai-1C263F?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgo
+[omnixai-url]: https://github.com/salesforce/OmniXAI
+[optuna.js]: https://optuna.org/assets/img/optuna-logo@2x.png
+[optuna-url]: https://optuna.org/
+
+
+• There are also installations of the optuna and omnixai libraries using the !pip install command. <br>
+
 <h2> Collaborators to our Project </h2>
 • GitHub ID: mahdihosseini, email tied to GitHub: (mahdi.hosseini@mail.utoronto.ca). <br>
 • GitHub ID: ahmedalagha1418, email tied to GitHub: (ahmedn.alagha@hotmail.com). 
+<br><br>
+
+[![AhmedAlagha1418][contributors-shield1]][contributors-url1]
+[![mahdihosseini][contributors-shield2]][contributors-url2]
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield1]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
+[contributors-shield2]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
+
+
+[contributors-url1]:https://github.com/AhmedAlagha1418
+[contributors-url2]: https://github.com/mahdihosseini
+
+
+
