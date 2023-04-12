@@ -1,2 +1,4 @@
 # FlowerSpeciesClassification
-Flower Species Classification
+
+This project aims to develop a flower classification system using deep learning techniques to aid botanists, agriculturists, and horticulturists in identifying different species of flowers. The project involves building deep-learning-based classification models using a combination of state-of-the-art convolutional neural network (CNN) architectures. However, the challenges in this project include differences in image qualities within the dataset and data quality issues, where some images contained text or the flower was not the most prominent part of the image. The goal of the project is to explore and provide a detailed analysis of how different CNN architectures and combinations fare against the chosen datasets of flowers, comparing all eleven models that were trained and providing a detailed performance analysis.
+
