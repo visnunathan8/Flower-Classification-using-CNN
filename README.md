@@ -13,7 +13,7 @@
 
 <h2>  Data Preprocessing </h2>
 
-<img width="447" alt="Screenshot 2023-04-12 at 12 37 25 AM" src="https://user-images.githubusercontent.com/30067377/231351224-b85335c2-027d-47ba-aeb3-a5b92d1a6bd3.png">
+<img width="700" alt="Screenshot 2023-04-12 at 12 37 25 AM" src="https://user-images.githubusercontent.com/30067377/231351224-b85335c2-027d-47ba-aeb3-a5b92d1a6bd3.png">
 
 <h3>Dataset-1 </h3> 
   • It has 7 evenly balanced classes with 1600 images per class (11200 total images). However, we pruned the number of classes to 5 making the total images to 8000(to maintain a diverse number of classes per dataset). 
