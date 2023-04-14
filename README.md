@@ -1,6 +1,15 @@
 
 <h1> FlowerSpeciesClassification </h1>
 
+• Accurate identification and classification of flower species is a crucial task for the understanding and conservation of various plant species. <br>
+• However, the lack of available information about the different flower species poses a significant challenge to achieving this goal. <br>
+• This report proposes a Flower Identification System focused on identifying the correct class/specie of a given flower. <br>
+• The project utilizes three different datasets containing a varied number of flower species, that were used to train three different Convolutional Neural • Network (CNN) architectures - MobileNetV2, ResNet18, and VGG16. <br>
+• The training process was done for nine instances trained from scratch, three instances for transfer learning and multiple instances for hyperparameter tuning. <br>
+• In this report, the outcomes of the  scratch and transfer learning training, hyperparameter tuning, Grad-CAM and TSNE visualization are discussed.<br>
+• The analysis helps determine which model-dataset combination provides the maximum accuracy along with optimal hyperparameters for training the models.<br> 
+• This study aims to contribute towards enhancing the classification and identification of flower species, which will be beneficial for the conservation and protection of various plant species.<br>
+
 <h2> Project aim </h2> • Develop a flower classification system using deep learning techniques to aid botanists, agriculturists, and horticulturists in identifying different species of flowers.<br>
 <h2> Methodology </h2> • Building deep-learning-based classification models using a combination of state-of-the-art convolutional neural network (CNN) architectures. <br>
  <h2> Challenges </h2>
@@ -11,7 +20,19 @@
     • Compare all eleven models that were trained. <br>
     • Provide a detailed performance analysis. <br>
 
-<h2>  Data Preprocessing </h2>
+<h2> Requirements to run the code (libraries, etc) </h2>
+ 
+ ```sh
+  pip install -r requirements.txt
+  ```
+ 
+<h3> Instructions to run the code : </h3>
+• Jupyter Notebook or any compatible software to run .ipynb files. <br>
+• Access to the dataset, which is assumed to be stored in Google Drive. <br>
+• Access to the pre-trained models, which are stored inside PreTrainedModels. <br>
+• The required libraries and modules should be installed in the environment, including but not limited to PyTorch, scikit-learn, tqdm, and matplotlib. <br>
+
+<h2> Data Preprocessing </h2>
 
 <img width="700" alt="Screenshot 2023-04-12 at 12 37 25 AM" src="https://user-images.githubusercontent.com/30067377/231351224-b85335c2-027d-47ba-aeb3-a5b92d1a6bd3.png">
 
@@ -43,19 +64,6 @@
 • Flowers Dataset 3, URL: https://www.kaggle.com/datasets/l3llff/flowers <br>
 
 
-
-<h2> Requirements to run the code (libraries, etc) </h2>
- 
- ```sh
-  pip install -r requirements.txt
-  ```
- 
- 
-<h3> Instructions to run the code : </h3>
-• Jupyter Notebook or any compatible software to run .ipynb files. <br>
-• Access to the dataset, which is assumed to be stored in Google Drive. <br>
-• Access to the pre-trained models, which are stored in Google Drive. <br>
-• The required libraries and modules should be installed in the environment, including but not limited to PyTorch, scikit-learn, tqdm, and matplotlib. <br>
 <h3> The imported libraries and modules include : </h3>
 
 * [![Python][Python.js]][Python-url]
