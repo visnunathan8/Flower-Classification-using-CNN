@@ -32,9 +32,20 @@
 • Access to the pre-trained models, which are stored inside PreTrainedModels. <br>
 • The required libraries and modules should be installed in the environment, including but not limited to PyTorch, scikit-learn, tqdm, and matplotlib. <br>
 
+<h2>Training and Validating the Models</h2>
+
+
 <h2> Data Preprocessing </h2>
 
+<h2>Links to the Dataset</h2>
+• Flowers Dataset 1, URL: https://www.kaggle.com/datasets/nadyana/flowers <br>
+• Flowers Dataset 2, URL: https://www.kaggle.com/datasets/utkarshsaxenadn/flower-classification-5-classes-roselilyetc <br>
+• Flowers Dataset 3, URL: https://www.kaggle.com/datasets/l3llff/flowers <br>
+
+<br>
 <img width="700" alt="Screenshot 2023-04-12 at 12 37 25 AM" src="https://user-images.githubusercontent.com/30067377/231351224-b85335c2-027d-47ba-aeb3-a5b92d1a6bd3.png">
+
+![std2](https://user-images.githubusercontent.com/30067377/231942056-2a3c504c-c9ba-4346-8294-b73b69d5e27b.png)
 
 <h3>Dataset-1 </h3> 
   • It has 7 evenly balanced classes with 1600 images per class (11200 total images). However, we pruned the number of classes to 5 making the total images to 8000(to maintain a diverse number of classes per dataset). 
@@ -57,11 +68,6 @@
 <img width="905" alt="Screenshot 2023-04-12 at 2 15 01 AM" src="https://user-images.githubusercontent.com/30067377/231367467-287da706-15e2-43bf-ad24-d5da7eebac71.png">
 
 <br> <br>
-
-<h2>Links to the Dataset</h2>
-• Flowers Dataset 1, URL: https://www.kaggle.com/datasets/nadyana/flowers <br>
-• Flowers Dataset 2, URL: https://www.kaggle.com/datasets/utkarshsaxenadn/flower-classification-5-classes-roselilyetc <br>
-• Flowers Dataset 3, URL: https://www.kaggle.com/datasets/l3llff/flowers <br>
 
 
 <h3> The imported libraries and modules include : </h3>
@@ -112,7 +118,11 @@
 
 <h2> Collaborators to our Project </h2>
 • GitHub ID: mahdihosseini, email tied to GitHub: (mahdi.hosseini@mail.utoronto.ca). <br>
-• GitHub ID: ahmedalagha1418, email tied to GitHub: (ahmedn.alagha@hotmail.com). 
+• GitHub ID: ahmedalagha1418, email tied to GitHub: (ahmedn.alagha@hotmail.com). <br>
+• GitHub ID: visnunathan8, email tied to GitHub: (rocketvisnu@gmail.com). <br>
+• GitHub ID: ShrawanSai, email tied to GitHub: (msaishrawan@gmail.com).<br>
+• GitHub ID: Sharanyu, email tied to GitHub: ().<br>
+• GitHub ID: kin-kins, email tied to GitHub: (K.ashu403@gmail.com).
 <br><br>
 
 [![AhmedAlagha1418][contributors-shield1]][contributors-url1]
