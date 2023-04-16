@@ -38,9 +38,9 @@ The models are trained in the folders as in Dataset-1, Dataset-2, Dataset-3.
 
 
 <h2>To run the pre-trained model on the provided sample test dataset </h2> 
-• Access the "TestingModel" folder where the pre-trained model is located. <br>
-• Retrieve the corresponding pre-trained model weights from the "PreTrainedWeights" folder. <br>
-• Obtain the sample test dataset from the given link. (https://drive.google.com/drive/folders/1GMCwghAtFoZIB95J04LrIr8PV5qoOTcP?usp=share_link) <br>
+• Access the "TestingModel" folder where the pre-trained sample testing model is located. <br>
+• Retrieve the corresponding pre-trained model weights from the below given drive link. <br>
+• Obtain the sample test dataset from the below given drive link. (https://drive.google.com/drive/folders/1BrCI3fdoxvH840Ii5AD914SgKfVjv8Ci?usp=share_link) <br>
 
 
 <h2> Data Preprocessing </h2>
