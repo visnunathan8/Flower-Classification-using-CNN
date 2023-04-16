@@ -8,7 +8,8 @@ Accurate identification and classification of flower species is a crucial task f
 <h2> Project aim </h2> • Develop a flower classification system using deep learning techniques to aid botanists, agriculturists, and horticulturists in identifying different species of flowers.<br>
 <h2> Methodology </h2> • Building deep-learning-based classification models using a combination of state-of-the-art convolutional neural network (CNN) architectures. <br>
  <br>
- <img width="1392" alt="Screenshot 2023-04-16 at 2 58 31 PM" src="https://user-images.githubusercontent.com/30067377/232335580-ed7a8b21-a773-40eb-aa78-71c474a70e33.png">
+ <img width="1403" alt="Screenshot 2023-04-16 at 3 11 18 PM" src="https://user-images.githubusercontent.com/30067377/232336475-88c33415-d9a7-4770-8cb4-9fbf531f8387.png">
+
 
 <h2> Goals </h2>
     • Explore and provide a detailed analysis of how different CNN architectures and combinations fare against the chosen datasets of flowers. <br>
@@ -53,7 +54,8 @@ Resnet18_Dataset3.ipynb
 • Flowers Dataset 3, URL: https://www.kaggle.com/datasets/l3llff/flowers <br>
 
 <br>
- <img width="1402" alt="Screenshot 2023-04-16 at 3 06 26 PM" src="https://user-images.githubusercontent.com/30067377/232335937-5e6bc8d2-43a7-44cf-8399-d5633e924ca2.png">
+ <img width="1043" alt="Screenshot 2023-04-16 at 3 12 50 PM" src="https://user-images.githubusercontent.com/30067377/232336567-81f01015-daf6-4210-83d2-c3bb410a5f75.png">
+
 
 
 
