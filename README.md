@@ -15,11 +15,6 @@ Accurate identification and classification of flower species is a crucial task f
     • Explore and provide a detailed analysis of how different CNN architectures and combinations fare against the chosen datasets of flowers. <br>
     • Compare all eleven models that were trained. <br>
     • Provide a detailed performance analysis. <br>
-
-<br>
-
-![image](https://user-images.githubusercontent.com/30067377/232333624-e9b3077e-2e43-4443-a334-01089bd6dac5.png)
-
 <br>
 
 <h2> Requirements to run the code (libraries, etc) </h2>
