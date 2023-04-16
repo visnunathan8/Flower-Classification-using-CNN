@@ -1,15 +1,15 @@
 
 <h1> FlowerSpeciesClassification </h1>
 
-![flower-detection](https://user-images.githubusercontent.com/30067377/232333433-3284ba69-8025-423a-a82c-28316600ef9b.png)
+<img width="1298" alt="Screenshot 2023-04-16 at 2 56 08 PM" src="https://user-images.githubusercontent.com/30067377/232335459-d686abc5-e865-47d6-8d56-d3b9fd9d732c.png">
 
 Accurate identification and classification of flower species is a crucial task for the understanding and conservation of various plant species. However, the lack of available information about the different flower species poses a significant challenge to achieving this goal. This report proposes a Flower Identification System focused on identifying the correct class/specie of a given flower. The project utilizes three different datasets containing a varied number of flower species, that were used to train three different Convolutional Neural Network (CNN) architectures - MobileNetV2, ResNet18, and VGG16. The training process was done for nine instances trained from scratch, three instances for transfer learning and multiple instances for hyperparameter tuning. In this report, the outcomes of the  scratch and transfer learning training, hyperparameter tuning, Grad-CAM and TSNE visualization are discussed. The analysis helps determine which model-dataset combination provides the maximum accuracy along with optimal hyperparameters for training the models. This study aims to contribute towards enhancing the classification and identification of flower species, which will be beneficial for the conservation and protection of various plant species.
 
 <h2> Project aim </h2> • Develop a flower classification system using deep learning techniques to aid botanists, agriculturists, and horticulturists in identifying different species of flowers.<br>
 <h2> Methodology </h2> • Building deep-learning-based classification models using a combination of state-of-the-art convolutional neural network (CNN) architectures. <br>
- <h2> Challenges </h2>
-    • Differences in image qualities within the dataset. <br>
-    • Data quality issues, where some images contained text or the flower was not the most prominent part of the image. <br>
+ <br>
+ <img width="1392" alt="Screenshot 2023-04-16 at 2 58 31 PM" src="https://user-images.githubusercontent.com/30067377/232335580-ed7a8b21-a773-40eb-aa78-71c474a70e33.png">
+
 <h2> Goals </h2>
     • Explore and provide a detailed analysis of how different CNN architectures and combinations fare against the chosen datasets of flowers. <br>
     • Compare all eleven models that were trained. <br>
