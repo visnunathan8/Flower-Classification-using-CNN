@@ -26,7 +26,7 @@ Accurate identification and classification of flower species is a crucial task f
  ```sh
   pip install -r requirements.txt
   ```
- 
+
 <h3> Instructions to run the code : </h3>
 • Jupyter Notebook or any compatible software to run .ipynb files. <br>
 • Access to the dataset, which is assumed to be stored in Google Drive. <br>
@@ -53,7 +53,8 @@ Resnet18_Dataset3.ipynb
 • Flowers Dataset 3, URL: https://www.kaggle.com/datasets/l3llff/flowers <br>
 
 <br>
-<img width="1044" alt="Screenshot 2023-04-16 at 1 41 19 PM" src="https://user-images.githubusercontent.com/30067377/232330747-79c01097-5bcd-4eb8-b021-224d8a91d5c5.png">
+ <img width="1402" alt="Screenshot 2023-04-16 at 3 06 26 PM" src="https://user-images.githubusercontent.com/30067377/232335937-5e6bc8d2-43a7-44cf-8399-d5633e924ca2.png">
+
 
 
 ![std2](https://user-images.githubusercontent.com/30067377/231942056-2a3c504c-c9ba-4346-8294-b73b69d5e27b.png)
