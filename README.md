@@ -1,14 +1,7 @@
 
 <h1> FlowerSpeciesClassification </h1>
 
-• Accurate identification and classification of flower species is a crucial task for the understanding and conservation of various plant species. <br>
-• However, the lack of available information about the different flower species poses a significant challenge to achieving this goal. <br>
-• This report proposes a Flower Identification System focused on identifying the correct class/specie of a given flower. <br>
-• The project utilizes three different datasets containing a varied number of flower species, that were used to train three different Convolutional Neural • Network (CNN) architectures - MobileNetV2, ResNet18, and VGG16. <br>
-• The training process was done for nine instances trained from scratch, three instances for transfer learning and multiple instances for hyperparameter tuning. <br>
-• In this report, the outcomes of the  scratch and transfer learning training, hyperparameter tuning, Grad-CAM and TSNE visualization are discussed.<br>
-• The analysis helps determine which model-dataset combination provides the maximum accuracy along with optimal hyperparameters for training the models.<br> 
-• This study aims to contribute towards enhancing the classification and identification of flower species, which will be beneficial for the conservation and protection of various plant species.<br>
+Accurate identification and classification of flower species is a crucial task for the understanding and conservation of various plant species. However, the lack of available information about the different flower species poses a significant challenge to achieving this goal. This report proposes a Flower Identification System focused on identifying the correct class/specie of a given flower. The project utilizes three different datasets containing a varied number of flower species, that were used to train three different Convolutional Neural Network (CNN) architectures - MobileNetV2, ResNet18, and VGG16. The training process was done for nine instances trained from scratch, three instances for transfer learning and multiple instances for hyperparameter tuning. In this report, the outcomes of the  scratch and transfer learning training, hyperparameter tuning, Grad-CAM and TSNE visualization are discussed. The analysis helps determine which model-dataset combination provides the maximum accuracy along with optimal hyperparameters for training the models. This study aims to contribute towards enhancing the classification and identification of flower species, which will be beneficial for the conservation and protection of various plant species.
 
 <h2> Project aim </h2> • Develop a flower classification system using deep learning techniques to aid botanists, agriculturists, and horticulturists in identifying different species of flowers.<br>
 <h2> Methodology </h2> • Building deep-learning-based classification models using a combination of state-of-the-art convolutional neural network (CNN) architectures. <br>
@@ -34,7 +27,10 @@
 
 <h2>Training and Validating the Models</h2>
 
-The models are trained in the folders as in Dataset-1, Dataset-2, Dataset-3.
+The models are trained in the folders as in Dataset-1, Dataset-2, Dataset-3. The codes are in .ipynb files. Some Sample files are given below :
+MobilenetV2_Dataset1.ipynb
+Dataset2_VGG16_Final.ipynb
+Resnet18_Dataset3.ipynb
 
 
 <h2>To run the pre-trained model on the provided sample test dataset </h2> 
@@ -43,15 +39,14 @@ The models are trained in the folders as in Dataset-1, Dataset-2, Dataset-3.
 • Obtain the sample test dataset from the below given drive link. (https://drive.google.com/drive/folders/1BrCI3fdoxvH840Ii5AD914SgKfVjv8Ci?usp=share_link) <br>
 
 
-<h2> Data Preprocessing </h2>
-
 <h2>Links to the Dataset</h2>
 • Flowers Dataset 1, URL: https://www.kaggle.com/datasets/nadyana/flowers <br>
 • Flowers Dataset 2, URL: https://www.kaggle.com/datasets/utkarshsaxenadn/flower-classification-5-classes-roselilyetc <br>
 • Flowers Dataset 3, URL: https://www.kaggle.com/datasets/l3llff/flowers <br>
 
 <br>
-<img width="700" alt="Screenshot 2023-04-12 at 12 37 25 AM" src="https://user-images.githubusercontent.com/30067377/231351224-b85335c2-027d-47ba-aeb3-a5b92d1a6bd3.png">
+<img width="1044" alt="Screenshot 2023-04-16 at 1 41 19 PM" src="https://user-images.githubusercontent.com/30067377/232330747-79c01097-5bcd-4eb8-b021-224d8a91d5c5.png">
+
 
 ![std2](https://user-images.githubusercontent.com/30067377/231942056-2a3c504c-c9ba-4346-8294-b73b69d5e27b.png)
 
@@ -123,6 +118,25 @@ The models are trained in the folders as in Dataset-1, Dataset-2, Dataset-3.
 
 
 • There are also installations of the optuna and omnixai libraries using the !pip install command. <br>
+
+
+<h2>Folder Descriptions : </h2>
+
+<h3>• Data Analysis:</h3> This folder contains scripts and code used to perform data analysis on the datasets used in the project. It contain scripts for data cleaning, data exploration, and data visualization. Data analysis is an important step in any machine learning project, as it helps to identify patterns and insights in the data that can inform the development of machine learning models.<br>
+
+<h3>• Dataset-1, Dataset-2, Dataset-3: </h3>These folders contain code used for training and testing machine learning models. Each dataset has its own set of comparison codes, which are used to compare the performance of models on the dataset.<br>
+
+<h3>• GradCAM:</h3> This folder contains code for the GradCAM algorithm, which is used to generate heatmaps that visualize the important regions of an image that a deep learning model is using to make its predictions.<br>
+
+<h3>• Model and dataset comparison:</h3> This folder contains code for comparing the performance of different machine learning models on various datasets.<br>
+
+<h3>• SampleTesting:</h3> This folder contains code for running sample tests on all models on dataset3. These tests are used to evaluate the performance of the models.<br>
+
+<h3>• TSNE:</h3> This folder contains code for the t-SNE algorithm, which is used to visualize high-dimensional data in a low-dimensional space<br>
+
+<h3>• Transfer learning:</h3> This folder contains code for comparing the metrics of transfer learning models vs. training models from scratch. Transfer learning involves using a pre-trained model as a starting point for a new model, rather than starting from scratch.<br>
+
+<h3>• Optimization:</h3> This folder contains code for optimizing a model with different set of learning rate. Optimization involves finding the best set of hyperparameters for a model to improve its performance.<br>
 
 <h2> Collaborators to our Project </h2>
 • GitHub ID: mahdihosseini, email tied to GitHub: (mahdi.hosseini@mail.utoronto.ca). <br>
